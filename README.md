@@ -14,4 +14,5 @@
   - Included timer in coding for a query.
   - Created cached table and ran timer on same query to compare run times.
   - Used partitioning and parquet formatting on data and ran timer on same query.
-  - Results of timers are: .58 seconds for the original query, .63 seconds on the cached table and .59 seconds on the partitioned data. This clearly shows the benefits of utilizing methods like caching, partitioning and parquet's columnar formatting to query data. Usage of these methods on Big Data would result in considerable business gains in the areas of time and resource utilization. 
+  - Cached partitioned table and timed query one final time.
+  - Results of timers are: .58 seconds for the original query, .41 seconds on the cached table, .61 seconds on the partitioned data and .44 seconds on the partitioned & cached data. This clearly shows the benefits of caching to query data. Usage of this method on Big Data would result in considerable business gains in the areas of time and resource utilization. 
